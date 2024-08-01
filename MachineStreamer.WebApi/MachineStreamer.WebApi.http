@@ -1,0 +1,6 @@
+@MachineStreamer.WebApi_HostAddress = http://localhost:5194
+
+GET {{MachineStreamer.WebApi_HostAddress}}/Machine/
+Accept: application/json
+
+###

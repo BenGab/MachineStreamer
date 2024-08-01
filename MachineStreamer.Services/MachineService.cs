@@ -1,6 +1,7 @@
 ﻿using MachinStreamer.DAL.Models;
 using MachinStreamer.DAL.Repositories;
 using MongoDB.Driver;
+using System.Linq.Expressions;
 
 namespace MachineStreamer.Services
 {
@@ -12,9 +13,9 @@ namespace MachineStreamer.Services
         {
             this.machineDataRepository = machineDataRepository;
         }
-        public Task<ICollection<MachineData>> GetAllAsync(FilterDefinition<MachineData> filter)
+        public ICollection<MachineData> GetAll(Expression<Func<MachineData, bool>> filter)
         {
-            return machineDataRepository.GetAllAsync(filter);
+            return machineDataRepository.GetAll(filter);
         }
 
         public Task InsertAsync(MachineData data)

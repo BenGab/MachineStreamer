@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachineStreamer.Services", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachinerStreamer.Worker", "MachinerStreamer.Worker\MachinerStreamer.Worker.csproj", "{8802C119-0EE0-4DA4-AB2D-5DD316509EDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachineStreamer.WebApi", "MachineStreamer.WebApi\MachineStreamer.WebApi.csproj", "{EE4085AF-6B13-4F87-A9E7-2D737461BD8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8802C119-0EE0-4DA4-AB2D-5DD316509EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8802C119-0EE0-4DA4-AB2D-5DD316509EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8802C119-0EE0-4DA4-AB2D-5DD316509EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE4085AF-6B13-4F87-A9E7-2D737461BD8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE4085AF-6B13-4F87-A9E7-2D737461BD8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE4085AF-6B13-4F87-A9E7-2D737461BD8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE4085AF-6B13-4F87-A9E7-2D737461BD8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

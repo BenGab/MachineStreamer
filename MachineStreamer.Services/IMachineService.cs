@@ -1,11 +1,12 @@
 ﻿using MachinStreamer.DAL.Models;
 using MongoDB.Driver;
+using System.Linq.Expressions;
 
 namespace MachineStreamer.Services
 {
     public interface IMachineService
     {
-        Task<ICollection<MachineData>> GetAllAsync(FilterDefinition<MachineData> filter);
+        ICollection<MachineData> GetAll(Expression<Func<MachineData, bool>> filter);
 
         Task InsertAsync(MachineData data);
     }
