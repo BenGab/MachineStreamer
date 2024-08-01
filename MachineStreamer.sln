@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachinStreamer.DAL", "Machi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachineStreamer.Services", "MachineStreamer.Services\MachineStreamer.Services.csproj", "{A56DC0DE-152A-43CE-8DA1-A3134A003B8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MachinerStreamer.Worker", "MachinerStreamer.Worker\MachinerStreamer.Worker.csproj", "{8802C119-0EE0-4DA4-AB2D-5DD316509EDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A56DC0DE-152A-43CE-8DA1-A3134A003B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A56DC0DE-152A-43CE-8DA1-A3134A003B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A56DC0DE-152A-43CE-8DA1-A3134A003B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8802C119-0EE0-4DA4-AB2D-5DD316509EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8802C119-0EE0-4DA4-AB2D-5DD316509EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8802C119-0EE0-4DA4-AB2D-5DD316509EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8802C119-0EE0-4DA4-AB2D-5DD316509EDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

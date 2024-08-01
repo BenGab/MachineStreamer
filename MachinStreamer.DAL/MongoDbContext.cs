@@ -1,5 +1,6 @@
 ﻿using MachinStreamer.DAL.Models;
 using MongoDB.Driver;
+using System.Text;
 
 namespace MachinStreamer.DAL
 {
@@ -9,7 +10,7 @@ namespace MachinStreamer.DAL
 
         public MongoDbContext(IMongoDbSettings mongoDbSettings)
         {
-            var client = new MongoClient(mongoDbSettings.ConnectionString);
+            var client = new MongoClient(Encoding.UTF8.GetString(Convert.FromBase64String(mongoDbSettings.ConnectionString)));
             _dataBase = client.GetDatabase(mongoDbSettings.DataBasename);
         }
 
